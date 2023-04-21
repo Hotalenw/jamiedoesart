@@ -1,13 +1,12 @@
 import './header.scss'
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export const Header = () => {
   return (
-    <div style={{padding: "1rem"}}>
+    <div style={{padding: "1rem", position: "sticky", top: 0}}>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <span className="navbar-brand headerBrand">JamieDoesArt</span>
-
+        <span className="navbar-brand headerBrand">JammaDoesArt</span>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
